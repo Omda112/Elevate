@@ -40,7 +40,7 @@ export default function Products() {
         </div>
       ) : (
         products?.map(product => (
-          <div key={product.id} className="flex items-center max-sm:w-12/12 md:w-4/12 lg:w-2/12 relative mt-2">
+          <div key={product.id} className="flex items-center max-sm:w-12/12 md:w-4/12 lg:w-2/12 relative mt-2 max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
             <div className='pb-24 relative'>
               <img src={product.image} className="w-full" alt={product.title} />
             </div>
